@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <title>Fixed Navigation Example</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav" id="navigation">
+            <ul>
+                <li>
+                    <span class="dropdown">
+                        <a href="./index.html">Projects</a> <button id="downButton">⬇️</button>
+                        <div class="dropdown-content">
+                          <a href="./projectone.html" id="projectDrop">Project One</a>
+                        </div>
+                    </span>
+                </li>
+                <li nav aria-current=page>
+                    <a href="./resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="./main.js"></script>
+        <div class="banner">
+            <h1 class="name">Resume</h1>
+            <p>Resume not showing below? <a href="./LamRichard_Resume.pdf" target="_blank">Download PDF</a></p>
+        </div>
+        <iframe class="frame" src="./LamRichard_Resume.pdf"> 
+    </body>
+</html>

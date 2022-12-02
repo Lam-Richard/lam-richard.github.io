@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <!-- <script src="./main.js"></script> -->
+        <title>Fixed Navigation Example</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav" id="navigation">
+            <ul>
+                <li nav aria-current=page >
+                    <span class="dropdown">
+                        <a href="./index.html">Projects</a> <button id="downButton">⬇️</button>
+                        <div class="dropdown-content">
+                          <a href="./projectone.html" id="projectDrop">Project One</a>
+                        </div>
+                    </span>
+                </li>
+                <li>
+                    <a href="./resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <h1 class="name">Richard Lam</h1>
+        </div>
+        <div class="projects">
+            <h1 class="projects-title">Projects</h1>
+            <div class="sample-project">
+                <img src="./cubefield.gif" class="picture" alt="endlessly looping cube animation."/>
+                <div class="info">
+                    <h1 class="title">Animations with p5.js</h1>
+                    <div class="project-description">
+                        A gallery of animations, created with the Processing library in Javascript.
+                    </div>
+                    <a href="./projectone.html" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="sample-project">
+                <img src="./masks.gif" class="picture" alt="demonstration of face-tracking, lolipop-shaped mask."/>
+                <div class="info">
+                    <h1 class="title">Animated Masks with p5.js</h1>
+                    <div class="project-description">
+                        A gallery of animated masks, created with the Processing Library in Javascript. Additionally, a demonstration of
+                        generative method techniques.
+                    </div>
+                    <!-- <a href="./projecttwo.html" class="learn-more">Button</a> -->
+                </div>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+    
+</html>

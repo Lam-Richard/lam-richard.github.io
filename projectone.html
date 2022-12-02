@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+
+        <title>Fixed Navigation Example</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav" id="navigation">
+            <ul>
+                <li>
+                    <span class="dropdown">
+                        <a href="./index.html">Projects</a> <button id="downButton">⬇️</button>
+                        <div class="dropdown-content">
+                          <a href="./projectone.html" id="projectDrop" nav aria-current=page>Project One</a>
+                        </div>
+                    </span>
+                </li>
+                <li>
+                    <a href="./resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav> 
+        <div class="banner">
+            <h1 class="name">Animations with p5.js</h1>
+        </div>
+
+        <!-- <img src="richardlam2024" -->
+        <div class="assorted-info"> 
+            This project is an introductory assignment on using the Processing Library 
+            to create animations for Professor Kate Compton's CS 396: Generative Methods class. 
+            Creating the animations shown below involves learnin how to draw shapes with p5.js as well
+            as learning how to use math and logic to make the animations seem seamless. The created animations here
+            are intended to lay the foundation for creating more elaborate generative art, such as emergent particle systems.
+            <br></br>
+            <p>Animations not showing below? <a href="http://richardlam2024-a2.glitch.me" target="_blank">Link to Project</a></p>
+        </div>
+        <script src="./main.js"></script>
+
+        <iframe class="frame" src="http://richardlam2024-a2.glitch.me"> 
+    </body>
+    </html>
